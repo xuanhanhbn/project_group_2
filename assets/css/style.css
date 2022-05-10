@@ -291,7 +291,7 @@ div {
 .chose-im-2{
     width: 45%;
     height: 330px;
-    background: url("/assets/image/specification-1.jpg") no-repeat;
+    background: url("../image/specification-1.jpg") no-repeat;
     background-size: cover  ;
 }
 
@@ -307,7 +307,7 @@ div {
 .chose-im-3{
     width: 45%;
     height: 330px;
-    background: url("/assets/image/specification-2.jpg") no-repeat;
+    background: url("../image/specification-2.jpg") no-repeat;
     background-size: cover  ;
 }
 
@@ -333,7 +333,7 @@ div {
 .chose-im-4{
     width: 30%;
     height: 200px;
-    background: url("/assets/image/specification-3.jpg") no-repeat;
+    background: url("../image/specification-3.jpg") no-repeat;
     background-size: cover  ;
 
 
@@ -342,7 +342,7 @@ div {
 .chose-im-5{
     width: 30%;
     height: 200px;
-    background: url("/assets/image/specification-4.jpg") no-repeat;
+    background: url("../image/specification-4.jpg") no-repeat;
     background-size: cover  ;
 
 }
@@ -350,7 +350,7 @@ div {
 .chose-im-6{
     width: 30%;
     height: 200px;
-    background: url("/assets/image/specification-5.jpg") no-repeat;
+    background: url("../image/specification-5.jpg") no-repeat;
     background-size: cover  ;
 
 }
