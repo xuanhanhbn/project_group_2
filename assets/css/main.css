@@ -1,0 +1,284 @@
+@import url(https://fonts.google.com/specimen/Racing+Sans+One?query=racing);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0!important;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: space-around;
+}
+
+.navbar-expand-lg .navbar-nav {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-link {
+    padding:8px 20px!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    font-size: 25px;
+    background-color: white;
+}
+.ast-btn{
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 153px;
+    height: 48px;
+    margin-right: 120px;
+    background-color: #fff;
+}
+.site-header {
+    transition: all .2s linear;
+}
+.menu-link {
+    display: none;
+}
+.ast-custom-btn {
+    padding: 14px 34px;
+    font-size: 0.875em;
+}
+.ast-btn a {
+    text-decoration: none;
+    color: #000;
+}
+.ast-custom-btn-link {
+    height: 48px;
+    width: 153px;
+}
+.ast-btn:hover {
+    background-color: #000;
+}
+.ast-btn a:hover {
+    color: #fff !important;
+}
+
+.shop-header {
+    width: 100%;
+    height: 78px;
+    background-color: rgb(223, 69, 62);
+}
+.star-rating {
+    font-size: 1rem;
+}
+.navbar-brand {
+    padding-left: 100px;
+}
+.shop-shopnow {
+    padding-right: 100px;
+}
+.shop-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: #e9ecef;
+    align-items: center;
+
+}
+h2 {
+    font-weight: 300;
+    font-family: "Racing Sans One",display;
+    text-transform: uppercase;
+
+}
+.shop-main-container {
+   width: 80%;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    margin: 50px;
+
+}
+.border-head {
+    float: left;
+}
+.shop-order {
+    float: right;
+    margin-top: 65px;
+}
+.product-0 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 32%;
+    flex-direction: column;
+    margin: 5px;
+
+}
+.product {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pro-img{
+    width: 100%;
+}
+.shop-main-container {
+    width: 80%;
+    padding: 40px;
+
+
+}
+.shop-nav-header {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Racing Sans One";
+}
+.shop-nav-header:hover {
+    color: red;
+}
+.shop-area {
+    width: 100%;
+    padding:  0 30px 0 20px;
+}
+.s-button {
+    margin-top: 60px;
+}
+.s-button-slide {
+    border: 1px solid rgb(223, 69, 62);
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    color: rgb(223, 69, 62);
+    position: relative;
+}
+.s-button-slide:hover{
+    background-color: rgb(223, 69, 62) ;
+    color: #FFFFFF;
+}
+.active {
+    background: rgb(223, 69, 62);
+    color: #FFFFFF;
+}
+footer, .footer1 {
+    width: 100%;
+    background: #000000;
+}
+.footer1 {
+    padding: 100px 120px 100px 80px;
+    border-bottom: 0.5px solid #5c636a;
+}
+.f-content, .f-icon {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.f-link-c {
+    list-style: none;
+}
+.f-links-content {
+    margin: 10px;
+
+}
+.category {
+    font-size: 13px;
+    color: #9aa2aa;
+}
+.f-link-c .f-content:hover {
+    color: red;
+}
+ul {
+    padding-left: 0!important;
+}
+.footer2 {
+    padding: 30px 80px 30px 80px;
+}
+.f-copy {
+    font-size: 90%;
+}
+.ic-bt{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.bt-ic{
+    color: white;
+    margin-left: 20px;
+}
+
+ion-icon:hover{
+    color: #b62d25;
+}
+.s-button-slide {
+    border: 1px solid rgb(223, 69, 62);
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    color: rgb(223, 69, 62);
+    position: relative;
+}
+.s-button-slide:hover{
+    background-color: rgb(223, 69, 62) ;
+    color: #FFFFFF;
+}
+.active {
+    background: rgb(223, 69, 62);
+    color: #FFFFFF;
+}
+
+.number-pages{
+    text-align: left;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.number-pages ul {
+    display: inline-block;
+    text-align: center;
+    white-space: normal;
+    padding: 0;
+    clear: both;
+    border: 0;
+    margin: 1px;
+}
+.number-pages ul li {
+    margin: 0 5px 5px 0;
+    border: 1px solid #fff;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+.number-pages ul li a {
+    margin: 0;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0.75em;
+    display: block;
+    min-width: 2.5em;
+}
+.number-pages ul li span {
+    margin: 0;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0.75em;
+    display: block;
+    min-width: 2.5em;
+}
+.current {
+    background-color: #df453e;
+    color: #fff;
+}
